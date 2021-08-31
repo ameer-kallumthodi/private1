@@ -6,7 +6,7 @@ let axios = require('axios');
 let Language = require('../language');
 let Lang = Language.getString('ttp');
 let td = Config.WORKTYPE == 'public' ? false : true
-let tdc = '*Made By WhatsAlexa*'
+let tdc = '*Made By liyamol private*'
 
     WhatsAlexa.addCommand({pattern: 'textmaker', fromMe: td, desc: Lang.TEXT_MAKER}, (async (message, match) => {    
 
