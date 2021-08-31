@@ -33,7 +33,7 @@ module.exports = {
     BRANCH: 'master',
     DEVELOPER: 'SAIDALI',
     AUTHOR: 'SAID',
-    GIT: 'https://github.com/saidalisaid22/private.git',
+    GIT: 'https://github.com/saidalisaid2/private.git',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
