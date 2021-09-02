@@ -18,7 +18,7 @@ WhatsAlexa.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: t
         let regexb6ichu = new RegExp('Myr')
         let regexb7ichu = new RegExp('andi')
         let regexb8ichu = new RegExp('Andi')
-        let regexb9ichu = new RegExp('myre)
+        let regexb9ichu = new RegExp('myre')
         let regexb10ichu = new RegExp('xnxx')
         let regexb11ichu = new RegExp('nude')
         let regexb12ichu = new RegExp('Nude')
