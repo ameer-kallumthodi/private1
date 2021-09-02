@@ -6,7 +6,7 @@ let Language = require('../language');
 let Lang = Language.getString('list');
 let td = Config.WORKTYPE == 'public' ? false : true
 let hrs = new Date().getHours()
- var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
+ 
 
 var wish = ''
 var wishml = ''
@@ -16,7 +16,7 @@ var auto_bio = ''
 var language = ''
 var MSG = ''
 var FMSG = ''
- *liyamol` + time + `*
+ 
 if (hrs < 12) wish = 'May today bring you the joys of yesterday’s hopes! Good Morning ⛅', wishml = 'ഇന്നലത്തെ പ്രതീക്ഷകളുടെ സന്തോഷം ഇന്ന് നിങ്ങൾക്ക് നൽകട്ടെ! സുപ്രഭാതം ⛅', wishid = 'Semoga hari ini membawakan Anda kegembiraan dari harapan kemarin! Selamat pagi ⛅'
 if (hrs >= 12 && hrs <= 17) wish = 'Wishing you a Healthy & Happy Fabulous Noon! Good Afternoon 🌞', wishml = 'നിങ്ങൾക്ക് ആരോഗ്യകരവും സന്തോഷകരവുമായ അതിശയകരമായ ഉച്ചഭക്ഷണം ആശംസിക്കുന്നു! ഗുഡ് ആഫ്റ്റർനൂൺ 🌞', wishid - 'Semoga Anda Sehat & Selamat Siang yang Luar Biasa! Selamat siang 🌞'
 if (hrs >= 17 && hrs <= 19) wish = 'May the setting sun take down all your sufferings with it and make you hopeful for a new day! Good Evening 🌥', wishml = 'അസ്തമയ സൂര്യൻ നിങ്ങളുടെ എല്ലാ കഷ്ടപ്പാടുകളും ഇല്ലാതാക്കുകയും ഒരു പുതിയ ദിവസത്തിനായി നിങ്ങളെ പ്രതീക്ഷിക്കുകയും ചെയ്യട്ടെ! ഗുഡ് ഈവനിംഗ് 🌥', wishid = 'Semoga matahari terbenam menghapus semua penderitaan Anda dengannya dan membuat Anda berharap untuk hari yang baru! Selamat malam 🌥'
